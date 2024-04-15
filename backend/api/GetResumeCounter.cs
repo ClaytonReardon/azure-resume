@@ -12,7 +12,7 @@ using System.Configuration;
 using Microsoft.Azure.Cosmos;
 using System.Net.Http;
 using System.Text;
-
+// Test comment
 namespace Company.Function
 {
     public static class GetResumeCounter
