@@ -1,0 +1,85 @@
+﻿Clayton Reardon
+Redondo Beach, CA | (424)-444-9490 | ClaytonReardon@gmail.com | 
+
+
+INTRO
+________________
+
+
+Hello my name is Clayton and I’m currently making the transition from the music industry into the Cybersecurity field. My focus is offensive security but I am open to learning about all the niches that infosec has to offer. Security has really captured my interest and I’m investing a lot of time and energy to learn and enhance my skill set. I am excited to join this industry and continue to learn.
+
+
+CERTIFICATIONS
+________________
+Microsoft - Azure Administration
+Use the Microsoft Azure Portal, Bash CLI, and Powershell to:
+* Identity Management and Governance: Manage Azure Identities and governance, including managing access and privileges for users and groups, as well as integration with external directories
+* Implement and Manage Storage: Implement storage solutions such as blob storage, file storage, and configuring access policies for cloud, and hybrid scenarios
+* Deploy and Manage Compute Resources: Deploy, configure, and manage virtual machines to meet the needs of various applications, workloads, and budgets
+* Implement and Manage Virtual Networking: Implement and manage virtual networking including virtual networks, subnets, and network security groups to ensure secure and efficient network infrastructure
+* Monitor and Maintain Azure Resources: Use various Azure tools to monitor and maintain Azure resources to track and maintain performance, monitor resources, and troubleshoot issues
+Verify:
+–https://learn.microsoft.com/api/credentials/share/en-us/ClaytonReardon-5708/60E89529BCC7B1D3?sharingId=D892AEAB21B31F63
+        
+Microsoft - Azure Fundamentals
+Verify:   —https://learn.microsoft.com/api/credentials/share/en-us/ClaytonReardon-5708/1A5B9E557226A55E?sharingId=D892AEAB21B31F63
+
+
+CompTIA - Security+
+* Identify Security Threats and Vulnerabilities: Understand and identify various types of attacks, threats, and vulnerabilities, as well as the steps necessary to mitigate them
+* Implement Network Security: Configuring and managing network infrastructure using technology and devices such as firewalls, VPNs, virtual networks, load balancers, and wireless security protocols, etc.
+* Cryptography: Knowledge of cryptographic standards, practices, and use cases for securing and authenticating communication and data
+* Identity and Access Management: Ability to implement access control policies and identity management to protect data and manage user privileges and access
+* Risk Management: Understanding of various risk management frameworks and the ability to conduct security assessments to identify and mitigate risks
+* Compliance and Operational Security: Awareness of legal and regulatory compliance mandates related to IT security, along with best practices for organization security
+— Verify at: http://verify.CompTIA.org
+— Code: RZZK3GHSHJB41YGR
+
+
+EXPERIENCE
+________________
+
+
+Home Lab
+One of my main hobbies is setting up different tech projects at home.
+* I run Debian 12 Stable with a tiling window manager as my desktop. I use Nix when I need newer packages, and build from source when I need the newest.
+* I’ve set up my own custom automatic, incremental cloud backup system using Microsoft Azure
+* I’ve set up a solution in Azure to monitor attack attempts and log the IP addresses as well as plot them on a map.
+* I run a Blue Bubbles server on a Macbook to allow me to interact with iMessage from my Android phone.
+* I have an old Macbook I’ve installed Ubuntu Server on that I use as a personal fileserver.
+* I am very active on HackTheBox. It’s a ton of fun and a great resource. I am competent with Medium difficulty boxes. I also try to be active on the forum and help out newer users as much as I can.
+* I’ve built all my own computers for the past 8 years.
+
+
+Barista                 01/2022 - Present
+Company:        Starbucks
+* You know the job, I’m a barista at Starbucks while I work on this new career path
+
+
+Audio Engineer/ Video Editor        09/2020 - 01/2022
+Company:        Spitfire Recording Studios
+* Assisted Lead Engineer in setting up studio for bands and performers
+* Assisted Lead Engineer is producing and mixing recorded music
+* Edited video for the studio’s youtube channel, Produce Like a Pro. https://www.youtube.com/@Producelikeapro
+
+
+Audio Engineer        09/2019 - 03/2020
+Company:        Harmony Event Productions
+* Set up staging, lighting, and sound for live events such as concerts and conferences
+* Responsible for live mix to ensure sound quality for the performer and the audience
+
+
+EDUCATION
+________________
+
+
+Bachelor’s in Advanced Audio Engineering        
+Los Angeles Recording Connection, 2019
+
+
+VOLUNTEER & SUPPORT ROLES
+________________
+
+
+Sponsor
+Extensive experience providing one-on-one guidance and support within the framework of confidential recovery programs, offering personalized assistance to individuals navigating the path of recovery and fostering a supportive and non-judgmental environment to promote personal growth and adherence to the principles of anonymity.
