@@ -1,24 +1,58 @@
-.download-resume {
-    text-align: center; /* Center align the content */
-    margin-top: 40px;
-    font-family: 'opensans-regular', sans-serif;
-  }
-  
-  .download-resume label {
-    font-size: 16px;
-    color: #fff; /* Adjust color based on your header's font color */
-    margin-right: 10px;
-  }
-  
-  #resume-download {
-    padding: 5px 10px;
-    border: 2px solid #fff; /* Adjust border color to fit your theme */
-    background-color: transparent;
-    color: #fff;
-    cursor: pointer;
-    border-radius: 20px; /* Rounded corners */
-    text-align: center;
-    display: inline-block;
-    font-family: 'opensans-semibold-italic', sans-serif;
-  }
-  
+/* This styles the main container of the Select2 box */
+.select2-container--default .select2-selection--single {
+  background-color: #161415; /* Black background */
+  border: 2px solid #fff; /* White border */
+  border-radius: 20px; /* Rounded corners */
+  height: 40px;
+  font-family: 'opensans-semibold-italic', sans-serif; /* Match the height of your old button if needed */
+}
+
+/* This styles the text inside the Select2 box */
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+  color: #fff; /* White text */
+  line-height: 38px; /* Center the text vertically */
+  padding-left: 16px; /* Or any other value for horizontal padding */
+}
+
+/* Styles for the dropdown container */
+.select2-container--default .select2-dropdown {
+  border-top-left-radius: 0; /* Top left corner */
+  border-top-right-radius: 0; /* Top right corner */
+  border-bottom-right-radius: 20px; /* Bottom right corner - rounded */
+  border-bottom-left-radius: 20px; /* Bottom left corner - rounded */
+  border: 2px solid #fff; /* Border color to match the button */
+  background-color: #161415; /* Background color to match the button */
+  color: #fff; /* Text color for the options */
+}
+
+/* Styles for the individual dropdown options */
+.select2-container--default .select2-results__option {
+  padding: 6px 12px; /* Padding for the options */
+  color: #fff; /* Text color for the options */
+}
+
+/* Styles for the option that is currently highlighted */
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+  background-color: #444; /* Darker background for highlighted option */
+  color: white; /* Text color for highlighted option */
+  border-radius: 8px;
+}
+
+/* Styles for the option that is currently selected */
+.select2-container--default .select2-results__option[aria-selected="true"] {
+  background-color: transparent; /* Even darker background for selected option */
+  color: white; /* Text color for selected option */
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+/* This styles the dropdown arrow */
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+  height: 38px; /* Arrow size, make sure it matches the height of the select box */
+  right: 10px; /* Distance from the right, adjust to match your old button */
+}
+
+/* This is optional, in case you want to change the color of the arrow */
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+  border-color: #fff transparent transparent transparent; /* White arrow */
+}
