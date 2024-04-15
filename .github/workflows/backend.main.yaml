@@ -1,4 +1,4 @@
-# Deploys when push is made that includes the backend directory
+# Deploys when push is made that includes backend directory
 name: deploy_backend
 
 on:
