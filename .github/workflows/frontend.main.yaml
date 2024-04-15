@@ -21,6 +21,24 @@ jobs:
       with:
         inlineScript: |
             az storage blob upload-batch --account-name azureresumesaclayton --auth-mode key -d '$web' -s frontend/ --overwrite
+    
+    - name: Remove files from Azure that are not present in repo
+      uses: azure/CLI@v1
+      with:
+        inlineScript: |
+          blobs=$(az storage blob list --container-name '$web' --account-name azureresumesaclayton --query "[].name" --output tsv | sort)
+          echo "$blobs" > azure-blobs.txt
+
+          pushd frontend
+          local_files=$(find . -type f | sort | sed 's|^\./||')
+          echo "$local_files" > local-files.txt
+          popd
+
+          comm -23 azure-blobs.txt local-files.txt | while read blob
+          do
+            az storage blob delete --container-name '$web' --name "$blob" --account-name 'azureresumesaclayton'
+          done
+
     - name: Purge CDN endpoint
       uses: azure/CLI@v1
       with:
