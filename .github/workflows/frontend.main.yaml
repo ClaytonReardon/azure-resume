@@ -31,8 +31,8 @@ jobs:
 
           pushd frontend
           local_files=$(find . -type f | sort | sed 's|^\./||')
-          echo "$local_files" > local-files.txt
           popd
+          echo "$local_files" > local-files.txt
 
           comm -23 azure-blobs.txt local-files.txt | while read blob
           do
