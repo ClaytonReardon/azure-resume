@@ -21,11 +21,17 @@
 	<link rel="stylesheet" href="css/layout.css">
    <link rel="stylesheet" href="css/media-queries.css">
    <link rel="stylesheet" href="css/magnific-popup.css">
+   <link rel="stylesheet" href="css/logo.css">
+   <link rel="stylesheet" href="css/resume.css">
+   <!-- CSS for Choices dropdown menu -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css" />
 
    <!-- Script
    ================================================== -->
    <script src="js/modernizr.js"></script>
-   <script src="main.js"></script>
+   <script src="js/main.js"></script>
+   <!-- Javascript for Choices dropdown menu -->
+   <script src="https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js"></script>
 
    <!-- Favicons
 	================================================== -->
@@ -61,6 +67,27 @@
                <li><a href="https://www.linkedin.com/in/clayton-reardon-079512195/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                <li><a href="https://github.com/ClaytonReardon" target="_blank"><i class="fa fa-github"></i></a></li>
             </ul>
+            <div class="download-resume">
+               <label for="resume-download">Download my resume:</label>
+               <select id="resume-download" onchange="downloadFile(this.value);">
+                  <option value="">Select Format</option>
+                  <option value="resume/Clayton Reardon Resume.pdf">PDF</option>
+                  <option value="resume/Clayton Reardon Resume.docx">Microsoft Word</option>
+                  <option value="resume/Clayton Reardon Resume.txt">Text File</option>
+               </select>
+            </div>
+            <script>
+               function downloadFile(filePath) {
+                 if (filePath) {
+                   var link = document.createElement('a');
+                   link.href = filePath;
+                   link.download = filePath.substr(filePath.lastIndexOf('/') + 1);
+                   document.body.appendChild(link);
+                   link.click();
+                   document.body.removeChild(link);
+                 }
+               }
+               </script>
          </div>
       </div>
 
@@ -120,38 +147,30 @@
          <div class="nine columns main-col">
 
             <div class="row item" style="margin-bottom: 40px">
-
                <div class="twelve columns">
-
-                  <h3 style="display: inline-block; margin-right: 10px;">Azure Administration AZ-104</h3>
-                  <img src="images/Azure_Admin_Logo.png" alt="Azure Admin Logo" style="width: 50px; height: 50px; vertical-align: middle;">
+                  <h3>Azure Administration AZ-104</h3>
                   <p class="info"><em class="date">March 2024</em></p>
                   <a href="https://learn.microsoft.com/api/credentials/share/en-us/ClaytonReardon-5708/60E89529BCC7B1D3?sharingId=D892AEAB21B31F63" target="_blank">Verify</a>
-
-
                </div>
-
+               <div class="logo-container">
+                  <img src="images/Azure_Admin_Logo.png" alt="Azure Admin Logo" style="width: 50px; height: 50px; margin-left: auto;">
+               </div>
             </div> <!-- item end -->
 
             <div class="row item" style="margin-bottom: 40px">
-
                <div class="twelve columns">
-
                   <h3 style="display: inline-block; margin-right: 10px;">Azure Fundamentals AZ-900</h3>
-                  <img src="images/Azure_Fundamentals.png" alt="Azure Fundamentals Logo" style="width: 50px; height: 50px; vertical-align: middle;">
                   <p class="info"><em class="date">July 2023</em></p>
                   <a href="https://learn.microsoft.com/api/credentials/share/en-us/ClaytonReardon-5708/1A5B9E557226A55E?sharingId=D892AEAB21B31F63" target="_blank">Verify</a>
-
                </div>
-
-            </div> <!-- item end -->
+               <div class="logo-container">
+                  <img src="images/Azure_Fundamentals.png" alt="Azure Fundamentals Logo" style="width: 50px; height: 50px; vertical-align: middle;">
+               </div>
+             </div> <!-- item end -->
 
             <div class="row item" style="margin-bottom: 40px">
-
                <div class="twelve columns">
-
                   <h3 style="display: inline-block; margin-right: 10px;">CompTIA Security+</h3>
-                  <img src="images/sec-plus-logo.png" alt="Security Plus Logo" style="width: 50px; height: 50px; vertical-align: middle;">
                   <p class="info"><em class="date">May 2023</em></p>
                   <a href="http://verify.CompTIA.org" target="_blank">Verify</a> with code <span style="cursor: pointer; text-decoration: underline; color: blue;" onclick="copyToClipboard('RZZK3GHSHJB41YGR')">RZZK3GHSHJB41YGR</span>
                   <script>
@@ -163,26 +182,23 @@
                        });
                      }
                      </script>
-
                </div>
-
+               <div class="logo-container">
+                  <img src="images/sec-plus-logo.png" alt="Security Plus Logo" style="width: 50px; height: 50px; vertical-align: middle;">
+               </div>
             </div> <!-- item end -->
             
             <div class="row item" style="margin-bottom: 40px">
-
                <div class="twelve columns">
-
                   <h3 style="display: inline-block; margin-right: 10px;">Bachelor's in Audio Engineering</h3>
-                  <img src="images/recording-connection.png" alt="Azure Fundamentals Logo" style="width: 120px; height: 60px; vertical-align: middle;">
                   <p class="info">Los Angeles Recording Connection</p>
                   <p class="info"><em class="date">December 2019</em></p>
-
                </div>
-
+               <div class="logo-container">
+                  <img src="images/recording-connection.png" alt="Azure Fundamentals Logo" style="width: 120px; height: 60px; vertical-align: middle;">
+               </div>
             </div> <!-- item end -->
-
          </div> <!-- main-col end -->
-
       </div> <!-- End Education -->
 
 
@@ -270,7 +286,7 @@
 
                <div class="twelve columns">
 
-                  <h3>Harmony Even Productions</h3>
+                  <h3>Harmony Event Productions</h3>
                   <p class="info">Audio Engineer/ Stagehand <span>&bull;</span> <em class="date">September 2019 - March 2020</em></p>
 
                   <p>

@@ -1,0 +1,37 @@
+# Deploys when push is made from frontend directory
+name: deploy_frontend
+
+on:
+    push:
+        branches: [ main ]
+        paths:
+        - 'frontend/**'
+
+env:
+  FUNCTION_KEY: ${{ secrets.FUNCTION_KEY }}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: azure/login@v1
+      with:
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
+
+    - name: Upload to blob storage
+      uses: azure/CLI@v1
+      with:
+        inlineScript: |
+            az storage blob upload-batch --account-name azureresumesaclayton --auth-mode key -d '$web' -s frontend/
+    - name: Purge CDN endpoint
+      uses: azure/CLI@v1
+      with:
+        inlineScript: |
+           az cdn endpoint purge --content-paths  "/*" --profile-name "azureresumecdn" --name "azureresumeclayton" --resource-group "AzureResumeRG"
+
+  # Azure logout
+    - name: logout
+      run: |
+            az logout
+      if: always()

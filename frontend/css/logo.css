@@ -1,0 +1,31 @@
+.item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em; /* This sets an even gap between the children */
+}
+
+/* Reset default margins and set consistent margins for spacing */
+.text-container h3,
+.text-container .info,
+.text-container a {
+    margin: 0;
+    padding: 0;
+}
+
+/* Now we can set a specific margin-top for uniform spacing */
+.text-container .info,
+.text-container a {
+    margin-top: 0.5em; /* Adjust the value to achieve the spacing you desire */
+}
+
+.item img {
+    width: 50px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+}
