@@ -7,9 +7,6 @@ on:
         paths:
         - 'frontend/**'
 
-env:
-  FUNCTION_KEY: ${{ secrets.FUNCTION_KEY }}
-
 jobs:
   build:
     runs-on: ubuntu-latest
