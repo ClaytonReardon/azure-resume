@@ -1,5 +1,5 @@
 # Writeup
-The full writeup can be found in the `Writeup` directory
+***The full writeup can be found in the Writeup directory***
 
 As a way to learn more about Microsoft Azure, I'm going to be building a website powered by Azure to showcase my resume. This project will be utilizing Azure CosmosDB, Azure Function Apps, Blob Storage, Azure CDN, as well as setting up a CI/CD pipeline with Github. This project is based off the [ACG Resume Project](https://github.com/ACloudGuru-Resources/acg-project-azure-resume-starter/tree/main) repo. That project is quite old now in computer years, so quite a few changes exist between it and this project. Now, I am by no means a web developer, so it is quite likely that the way I've done my html and CSS is not the most optimized or efficient approach, so do keep that in mind when following this guide.
 # Overview
