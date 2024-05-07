@@ -19,7 +19,7 @@ namespace Company.Function
     {
         [FunctionName("GetResumeCounter")]
         public static async Task<HttpResponseMessage> Run(
-            [HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)] HttpRequest req,
+            [HttpTrigger(AuthorizationLevel.Anonymous, "get", "post", Route = null)] HttpRequest req,
             [CosmosDB(
                 databaseName: "AzureResume",
                 containerName: "Counter",

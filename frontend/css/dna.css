@@ -1,0 +1,495 @@
+body{
+    background-color: #1E0731;
+}
+.dna-footer{
+    position: absolute;
+    margin-top: 300px;
+}
+.dna-footer a{
+    color: #F5E53A;
+}
+.dna-footer img{
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+}
+
+.dna-wrapper{
+    position: absolute;
+    float: left;
+    margin: 140px 100px;
+}
+
+.dna-sequence{
+    position: absolute;
+    top: 0px;
+    width: 2px;
+    height: 8px;
+    background-color: red;
+}
+
+.dna-node{
+    position: absolute;
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: blue;
+}
+.dna-node-top{
+    top: 0px;
+    left: -3.5px;
+}
+.dna-node-bottom{
+    bottom: 0px;
+    left: -3.5px;
+}
+
+.dna-element{
+    position: absolute;
+    display: block;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    left: -1.5px;
+}
+
+.dna-sequence1{
+    margin-left: 0px;
+    background-color: #2410CB;
+    -webkit-animation: line 2s cubic-bezier(0.250, 0, 0.705, 1) infinite;
+    animation: line 2s cubic-bezier(0.250, 0, 0.705, 1) infinite;
+}
+.dna-sequence > .dna-node{
+    background-color: #D4141E;
+}
+.dna-sequence1 > .dna-segment > .dna-element{
+    background-color: #D4141E;
+}
+.dna-sequence1 > .dna-segment > .dna-element-top{
+    top: 0px;
+    -webkit-animation: dot-top 2s cubic-bezier(0.250, 0, 0.705, 1) infinite;
+    animation: dot-top 2s cubic-bezier(0.250, 0, 0.705, 1) infinite;
+}
+.dna-sequence1 > .dna-segment > .dna-element-bottom{
+    bottom: 0px;
+    -webkit-animation: dot-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) infinite;
+    animation: dot-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) infinite;
+}
+.dna-sequence1 > .dna-segment > .dna-element-middle-top{
+    top: 0px;
+    -webkit-animation: dot-middle-top 2s cubic-bezier(0.250, 0, 0.705, 1) infinite;
+    animation: dot-middle-top 2s cubic-bezier(0.250, 0, 0.705, 1) infinite;
+}
+.dna-sequence1 > .dna-segment > .dna-element-middle-bottom{
+    bottom: 0px;
+    -webkit-animation: dot-middle-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) infinite;
+    animation: dot-middle-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) infinite;
+}
+
+.dna-sequence2{
+    margin-left: 35px;
+    background-color: #852DF4;
+    -webkit-animation: line 2s cubic-bezier(0.250, 0, 0.705, 1) .05s infinite;
+    animation: line 2s cubic-bezier(0.250, 0, 0.705, 1) .05s infinite;
+}
+.dna-sequence2 > .dna-node{
+    background-color: #FC7E48;
+}
+.dna-sequence2 > .dna-segment > .dna-element{
+    background-color: #FC7E48;
+}
+.dna-sequence2 > .dna-segment > .dna-element-top{
+    top: 0px;
+    -webkit-animation: dot-top 2s cubic-bezier(0.250, 0, 0.705, 1) .05s infinite;
+    animation: dot-top 2s cubic-bezier(0.250, 0, 0.705, 1) .05s infinite;
+}
+.dna-sequence2 > .dna-segment > .dna-element-bottom{
+    bottom: 0px;
+    -webkit-animation: dot-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .05s infinite;
+    animation: dot-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .05s infinite;
+}
+.dna-sequence2 > .dna-segment > .dna-element-middle-top{
+    top: 0px;
+    -webkit-animation: dot-middle-top 2s cubic-bezier(0.250, 0, 0.705, 1) .05s infinite;
+    animation: dot-middle-top 2s cubic-bezier(0.250, 0, 0.705, 1) .05s infinite;
+}
+.dna-sequence2 > .dna-segment > .dna-element-middle-bottom{
+    bottom: 0px;
+    -webkit-animation: dot-middle-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .05s infinite;
+    animation: dot-middle-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .05s infinite;
+}
+
+.dna-sequence3{
+    margin-left: 70px;
+    background-color: #F42DF1;
+    -webkit-animation: line 2s cubic-bezier(0.250, 0, 0.705, 1) .1s infinite;
+    animation: line 2s cubic-bezier(0.250, 0, 0.705, 1) .1s infinite;
+}
+.dna-sequence3 > .dna-node{
+    background-color: #EDEB29;
+}
+.dna-sequence3 > .dna-segment > .dna-element{
+    background-color: #EDEB29;
+}
+.dna-sequence3 > .dna-segment > .dna-element-top{
+    top: 0px;
+    -webkit-animation: dot-top 2s cubic-bezier(0.250, 0, 0.705, 1) .1s infinite;
+    animation: dot-top 2s cubic-bezier(0.250, 0, 0.705, 1) .1s infinite;
+}
+.dna-sequence3 > .dna-segment > .dna-element-bottom{
+    bottom: 0px;
+    -webkit-animation: dot-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .1s infinite;
+    animation: dot-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .1s infinite;
+}
+.dna-sequence3 > .dna-segment > .dna-element-middle-top{
+    top: 0px;
+    -webkit-animation: dot-middle-top 2s cubic-bezier(0.250, 0, 0.705, 1) .1s infinite;
+    animation: dot-middle-top 2s cubic-bezier(0.250, 0, 0.705, 1) .1s infinite;
+}
+.dna-sequence3 > .dna-segment > .dna-element-middle-bottom{
+    bottom: 0px;
+    -webkit-animation: dot-middle-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .1s infinite;
+    animation: dot-middle-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .1s infinite;
+}
+
+.dna-sequence4{
+    margin-left: 105px;
+    background-color: #F91396;
+    -webkit-animation: line 2s cubic-bezier(0.250, 0, 0.705, 1) .15s infinite;
+    animation: line 2s cubic-bezier(0.250, 0, 0.705, 1) .15s infinite;
+}
+.dna-sequence4 > .dna-node{
+    background-color: #ACED29;
+}
+.dna-sequence4 > .dna-segment > .dna-element{
+    background-color: #ACED29;
+}
+.dna-sequence4 > .dna-segment > .dna-element-top{
+    top: 0px;
+    -webkit-animation: dot-top 2s cubic-bezier(0.250, 0, 0.705, 1) .15s infinite;
+    animation: dot-top 2s cubic-bezier(0.250, 0, 0.705, 1) .15s infinite;
+}
+.dna-sequence4 > .dna-segment > .dna-element-bottom{
+    bottom: 0px;
+    -webkit-animation: dot-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .15s infinite;
+    animation: dot-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .15s infinite;
+}
+.dna-sequence4 > .dna-segment > .dna-element-middle-top{
+    top: 0px;
+    -webkit-animation: dot-middle-top 2s cubic-bezier(0.250, 0, 0.705, 1) .15s infinite;
+    animation: dot-middle-top 2s cubic-bezier(0.250, 0, 0.705, 1) .15s infinite;
+}
+.dna-sequence4 > .dna-segment > .dna-element-middle-bottom{
+    bottom: 0px;
+    -webkit-animation: dot-middle-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .15s infinite;
+    animation: dot-middle-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .15s infinite;
+}
+
+.dna-sequence5{
+    margin-left: 140px;
+    background-color: #D4141E;
+    -webkit-animation: line 2s cubic-bezier(0.250, 0, 0.705, 1) .2s infinite;
+    animation: line 2s cubic-bezier(0.250, 0, 0.705, 1) .2s infinite;
+}
+.dna-sequence5 > .dna-node{
+    background-color: #4EF02B;
+}
+.dna-sequence5 > .dna-segment > .dna-element{
+    background-color: #4EF02B;
+}
+.dna-sequence5 > .dna-segment > .dna-element-top{
+    top: 0px;
+    -webkit-animation: dot-top 2s cubic-bezier(0.250, 0, 0.705, 1) .2s infinite;
+    animation: dot-top 2s cubic-bezier(0.250, 0, 0.705, 1) .2s infinite;
+}
+.dna-sequence5 > .dna-segment > .dna-element-bottom{
+    bottom: 0px;
+    -webkit-animation: dot-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .2s infinite;
+    animation: dot-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .2s infinite;
+}
+.dna-sequence5 > .dna-segment > .dna-element-middle-top{
+    top: 0px;
+    -webkit-animation: dot-middle-top 2s cubic-bezier(0.250, 0, 0.705, 1) .2s infinite;
+    animation: dot-middle-top 2s cubic-bezier(0.250, 0, 0.705, 1) .2s infinite;
+}
+.dna-sequence5 > .dna-segment > .dna-element-middle-bottom{
+    bottom: 0px;
+    -webkit-animation: dot-middle-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .2s infinite;
+    animation: dot-middle-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .2s infinite;
+}
+
+.dna-sequence6{
+    margin-left: 175px;
+    background-color: #FC7E48;
+    -webkit-animation: line 2s cubic-bezier(0.250, 0, 0.705, 1) .25s infinite;
+    animation: line 2s cubic-bezier(0.250, 0, 0.705, 1) .25s infinite;
+}
+.dna-sequence6 > .dna-node{
+    background-color: #38E790;
+}
+.dna-sequence6 > .dna-segment > .dna-element{
+    background-color: #38E790;
+}
+.dna-sequence6 > .dna-segment > .dna-element-top{
+    top: 0px;
+    -webkit-animation: dot-top 2s cubic-bezier(0.250, 0, 0.705, 1) .25s infinite;
+    animation: dot-top 2s cubic-bezier(0.250, 0, 0.705, 1) .25s infinite;
+}
+.dna-sequence6 > .dna-segment > .dna-element-bottom{
+    bottom: 0px;
+    -webkit-animation: dot-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .25s infinite;
+    animation: dot-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .25s infinite;
+}
+.dna-sequence6 > .dna-segment > .dna-element-middle-top{
+    top: 0px;
+    -webkit-animation: dot-middle-top 2s cubic-bezier(0.250, 0, 0.705, 1) .25s infinite;
+    animation: dot-middle-top 2s cubic-bezier(0.250, 0, 0.705, 1) .25s infinite;
+}
+.dna-sequence6 > .dna-segment > .dna-element-middle-bottom{
+    bottom: 0px;
+    -webkit-animation: dot-middle-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .25s infinite;
+    animation: dot-middle-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .25s infinite;
+}
+
+.dna-sequence7{
+    margin-left: 210px;
+    background-color: #EDEB29;
+    -webkit-animation: line 2s cubic-bezier(0.250, 0, 0.705, 1) .3s infinite;
+    animation: line 2s cubic-bezier(0.250, 0, 0.705, 1) .3s infinite;
+}
+.dna-sequence7 > .dna-node{
+    background-color: #25EACC;
+}
+.dna-sequence7 > .dna-segment > .dna-element{
+    background-color: #25EACC;
+}
+.dna-sequence7 > .dna-segment > .dna-element-top{
+    top: 0px;
+    -webkit-animation: dot-top 2s cubic-bezier(0.250, 0, 0.705, 1) .3s infinite;
+    animation: dot-top 2s cubic-bezier(0.250, 0, 0.705, 1) .3s infinite;
+}
+.dna-sequence7 > .dna-segment > .dna-element-bottom{
+    bottom: 0px;
+    -webkit-animation: dot-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .3s infinite;
+    animation: dot-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .3s infinite;
+}
+.dna-sequence7 > .dna-segment > .dna-element-middle-top{
+    top: 0px;
+    -webkit-animation: dot-middle-top 2s cubic-bezier(0.250, 0, 0.705, 1) .3s infinite;
+    animation: dot-middle-top 2s cubic-bezier(0.250, 0, 0.705, 1) .3s infinite;
+}
+.dna-sequence7 > .dna-segment > .dna-element-middle-bottom{
+    bottom: 0px;
+    -webkit-animation: dot-middle-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .3s infinite;
+    animation: dot-middle-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .3s infinite;
+}
+
+.dna-sequence8{
+    margin-left: 245px;
+    background-color: #ACED29;
+    -webkit-animation: line 2s cubic-bezier(0.250, 0, 0.705, 1) .35s infinite;
+    animation: line 2s cubic-bezier(0.250, 0, 0.705, 1) .35s infinite;
+}
+.dna-sequence8 > .dna-node{
+    background-color: #309CDF;
+}
+.dna-sequence8 > .dna-segment > .dna-element{
+    background-color: #309CDF;
+}
+.dna-sequence8 > .dna-segment > .dna-element-top{
+    top: 0px;
+    -webkit-animation: dot-top 2s cubic-bezier(0.250, 0, 0.705, 1) .35s infinite;
+    animation: dot-top 2s cubic-bezier(0.250, 0, 0.705, 1) .35s infinite;
+}
+.dna-sequence8 > .dna-segment > .dna-element-bottom{
+    bottom: 0px;
+    -webkit-animation: dot-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .35s infinite;
+    animation: dot-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .35s infinite;
+}
+.dna-sequence8 > .dna-segment > .dna-element-middle-top{
+    top: 0px;
+    -webkit-animation: dot-middle-top 2s cubic-bezier(0.250, 0, 0.705, 1) .35s infinite;
+    animation: dot-middle-top 2s cubic-bezier(0.250, 0, 0.705, 1) .35s infinite;
+}
+.dna-sequence8 > .dna-segment > .dna-element-middle-bottom{
+    bottom: 0px;
+    -webkit-animation: dot-middle-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .35s infinite;
+    animation: dot-middle-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .35s infinite;
+}
+
+.dna-sequence9{
+    margin-left: 280px;
+    background-color: #4EF02B;
+    -webkit-animation: line 2s cubic-bezier(0.250, 0, 0.705, 1) .4s infinite;
+    animation: line 2s cubic-bezier(0.250, 0, 0.705, 1) .4s infinite;
+}
+.dna-sequence9 > .dna-node{
+    background-color: #2544E7;
+}
+.dna-sequence9 > .dna-segment > .dna-element{
+    background-color: #2544E7;
+}
+.dna-sequence9 > .dna-segment > .dna-element-top{
+    top: 0px;
+    -webkit-animation: dot-top 2s cubic-bezier(0.250, 0, 0.705, 1) .4s infinite;
+    animation: dot-top 2s cubic-bezier(0.250, 0, 0.705, 1) .4s infinite;
+}
+.dna-sequence9 > .dna-segment > .dna-element-bottom{
+    bottom: 0px;
+    -webkit-animation: dot-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .4s infinite;
+    animation: dot-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .4s infinite;
+}
+.dna-sequence9 > .dna-segment > .dna-element-middle-top{
+    top: 0px;
+    -webkit-animation: dot-middle-top 2s cubic-bezier(0.250, 0, 0.705, 1) .4s infinite;
+    animation: dot-middle-top 2s cubic-bezier(0.250, 0, 0.705, 1) .4s infinite;
+}
+.dna-sequence9 > .dna-segment > .dna-element-middle-bottom{
+    bottom: 0px;
+    -webkit-animation: dot-middle-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .4s infinite;
+    animation: dot-middle-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .4s infinite;
+}
+
+.dna-sequence10{
+    margin-left: 315px;
+    background-color: #38E790;
+    -webkit-animation: line 2s cubic-bezier(0.250, 0, 0.705, 1) .45s infinite;
+    animation: line 2s cubic-bezier(0.250, 0, 0.705, 1) .45s infinite;
+}
+.dna-sequence10 > .dna-node{
+    background-color: #852DF4;
+}
+.dna-sequence10 > .dna-segment > .dna-element{
+    background-color: #852DF4;
+}
+.dna-sequence10 > .dna-segment > .dna-element-top{
+    top: 0px;
+    -webkit-animation: dot-top 2s cubic-bezier(0.250, 0, 0.705, 1) .45s infinite;
+    animation: dot-top 2s cubic-bezier(0.250, 0, 0.705, 1) .45s infinite;
+}
+.dna-sequence10 > .dna-segment > .dna-element-bottom{
+    bottom: 0px;
+    -webkit-animation: dot-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .45s infinite;
+    animation: dot-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .45s infinite;
+}
+.dna-sequence10 > .dna-segment > .dna-element-middle-top{
+    top: 0px;
+    -webkit-animation: dot-middle-top 2s cubic-bezier(0.250, 0, 0.705, 1) .45s infinite;
+    animation: dot-middle-top 2s cubic-bezier(0.250, 0, 0.705, 1) .45s infinite;
+}
+.dna-sequence10 > .dna-segment > .dna-element-middle-bottom{
+    bottom: 0px;
+    -webkit-animation: dot-middle-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .45s infinite;
+    animation: dot-middle-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .45s infinite;
+}
+
+.dna-sequence11{
+    margin-left: 350px;
+    background-color: #25EACC;
+    -webkit-animation: line 2s cubic-bezier(0.250, 0, 0.705, 1) .5s infinite;
+    animation: line 2s cubic-bezier(0.250, 0, 0.705, 1) .5s infinite;
+}
+.dna-sequence11 > .dna-node{
+    background-color: #F42DF1;
+}
+.dna-sequence11 > .dna-segment > .dna-element{
+    background-color: #F42DF1;
+}
+.dna-sequence11 > .dna-segment > .dna-element-top{
+    top: 0px;
+    -webkit-animation: dot-top 2s cubic-bezier(0.250, 0, 0.705, 1) .5s infinite;
+    animation: dot-top 2s cubic-bezier(0.250, 0, 0.705, 1) .5s infinite;
+
+}
+.dna-sequence11 > .dna-segment > .dna-element-bottom{
+    bottom: 0px;
+    -webkit-animation: dot-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .5s infinite;
+    animation: dot-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .5s infinite;
+}
+.dna-sequence11 > .dna-segment > .dna-element-middle-top{
+    top: 0px;
+    -webkit-animation: dot-middle-top 2s cubic-bezier(0.250, 0, 0.705, 1) .5s infinite;
+    animation: dot-middle-top 2s cubic-bezier(0.250, 0, 0.705, 1) .5s infinite;
+}
+.dna-sequence11 > .dna-segment > .dna-element-middle-bottom{
+    bottom: 0px;
+    -webkit-animation: dot-middle-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .5s infinite;
+    animation: dot-middle-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .5s infinite;
+}
+
+@-webkit-keyframes line{
+    0%{height: 4px; top: 0px; left: 0px; -webkit-transform: rotate(-65deg)}
+    10%{height: 220px; top: -110px; left: 15px;}
+    45%{height: 200px; top: -100px; left: 25px;}
+    70%{height: 8px; top: 0px; left: 25px; -webkit-transform: rotate(0deg);}
+    100%{height: 8px; top: 0px; left: 15px; -webkit-transform: rotate(0deg);}
+}
+@-webkit-keyframes dot-top{
+    0%{top: -30px}
+    10%{top: -30px;}
+    45%{top: -25px;}
+    60%{top: 0px;}
+    100%{top: 0px;}
+}
+@-webkit-keyframes dot-bottom{
+    0%{bottom: -30px}
+    10%{bottom: -30px;}
+    45%{bottom: -25px;}
+    60%{bottom: 0px;}
+    100%{bottom: 0px;}
+}
+@-webkit-keyframes dot-middle-top{
+    0%{}
+    10%{}
+    45%{top: 98px;}
+    70%{top: -50px;}
+    85%{top: 0px;}
+    100%{top: 0px;}
+}
+@-webkit-keyframes dot-middle-bottom{
+    0%{}
+    10%{}
+    45%{bottom: 98px;}
+    70%{bottom: -50px;}
+    85%{bottom: 0px;}
+    100%{bottom: 0px;}
+}
+
+@keyframes line{
+    0%{height: 4px; top: 0px; left: 0px; transform: rotate(-65deg)}
+    10%{height: 220px; top: -110px; left: 15px;}
+    45%{height: 200px; top: -100px; left: 25px;}
+    70%{height: 8px; top: 0px; left: 25px; transform: rotate(0deg);}
+    100%{height: 8px; top: 0px; left: 15px; transform: rotate(0deg);}
+}
+@keyframes dot-top{
+    0%{top: -30px}
+    10%{top: -30px;}
+    45%{top: -25px;}
+    60%{top: 0px;}
+    100%{top: 0px;}
+}
+@keyframes dot-bottom{
+    0%{bottom: -30px}
+    10%{bottom: -30px;}
+    45%{bottom: -25px;}
+    60%{bottom: 0px;}
+    100%{bottom: 0px;}
+}
+@keyframes dot-middle-top{
+    0%{}
+    10%{}
+    45%{top: 78px;}
+    70%{top: -50px;}
+    85%{top: 0px;}
+    100%{top: 0px;}
+}
+@keyframes dot-middle-bottom{
+    0%{}
+    10%{}
+    45%{bottom: 78px;}
+    70%{bottom: -50px;}
+    85%{bottom: 0px;}
+    100%{bottom: 0px;}
+}

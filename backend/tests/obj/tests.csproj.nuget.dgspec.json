@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/clayton/azure-resume/backend/tests/tests.csproj": {}
+    "/home/clayton/GitRepos/Azure-Resume/backend/tests/tests.csproj": {}
   },
   "projects": {
-    "/home/clayton/azure-resume/backend/api/api.csproj": {
+    "/home/clayton/GitRepos/Azure-Resume/backend/api/api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/clayton/azure-resume/backend/api/api.csproj",
+        "projectUniqueName": "/home/clayton/GitRepos/Azure-Resume/backend/api/api.csproj",
         "projectName": "api",
-        "projectPath": "/home/clayton/azure-resume/backend/api/api.csproj",
+        "projectPath": "/home/clayton/GitRepos/Azure-Resume/backend/api/api.csproj",
         "packagesPath": "/home/clayton/.nuget/packages/",
-        "outputPath": "/home/clayton/azure-resume/backend/api/obj/",
+        "outputPath": "/home/clayton/GitRepos/Azure-Resume/backend/api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/clayton/.nuget/NuGet/NuGet.Config"
@@ -86,14 +86,14 @@
         }
       }
     },
-    "/home/clayton/azure-resume/backend/tests/tests.csproj": {
+    "/home/clayton/GitRepos/Azure-Resume/backend/tests/tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/clayton/azure-resume/backend/tests/tests.csproj",
+        "projectUniqueName": "/home/clayton/GitRepos/Azure-Resume/backend/tests/tests.csproj",
         "projectName": "tests",
-        "projectPath": "/home/clayton/azure-resume/backend/tests/tests.csproj",
+        "projectPath": "/home/clayton/GitRepos/Azure-Resume/backend/tests/tests.csproj",
         "packagesPath": "/home/clayton/.nuget/packages/",
-        "outputPath": "/home/clayton/azure-resume/backend/tests/obj/",
+        "outputPath": "/home/clayton/GitRepos/Azure-Resume/backend/tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/clayton/.nuget/NuGet/NuGet.Config"
@@ -108,8 +108,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/clayton/azure-resume/backend/api/api.csproj": {
-                "projectPath": "/home/clayton/azure-resume/backend/api/api.csproj"
+              "/home/clayton/GitRepos/Azure-Resume/backend/api/api.csproj": {
+                "projectPath": "/home/clayton/GitRepos/Azure-Resume/backend/api/api.csproj"
               }
             }
           }

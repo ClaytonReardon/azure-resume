@@ -24,12 +24,13 @@
    <link rel="stylesheet" href="css/logo.css">
    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" rel="stylesheet" />
    <link rel="stylesheet" href="css/resume.css" />
+   <link rel="stylesheet" href="css/dna.css" />
 
    <!-- Script
    ================================================== -->
    <script src="js/modernizr.js"></script>
    <script src="js/main.js"></script>
-   <script src="js/dropdown.js"></script>
+
 
    <!-- Favicons
 	================================================== -->
@@ -101,14 +102,13 @@
          </div>
          <div class="nine columns main-col">
             <h2>ABOUT ME</h2>
-            <p> Hi, I'm Clayton Reardon, an aspiring infosec professional making a transition from the music industry into IT. 
-               My focus is on offensive security, but I'm open to all the many niches IT has to offer. 
-               My passion for tech comes from the fact that our world is growing increasingly more online, and to most people, 
-               computers are a mystery. As tech enthusiasts, it's our duty to make sure people are protected, respected, 
-               and secured online. It also doesn't hurt that I just think IT is really cool.                
-         </br>
-      </br>
-       I built this page as part of the <span><a href="https://github.com/ACloudGuru-Resources/acg-project-azure-resume-starter" target="_blank">ACG Azure Resume Challenge.</a></span>            
+            <p>Hi, I'm Clayton Reardon. I began my career in cybersecurity through hands-on experience with the penetration testing playground, HackTheBox, 
+               initially as a hobby, subsequently as a passion. Holding CompTIA Security+, Microsoft Azure Fundamentals and 
+               Administration certifications, I've expanded my expertise through various home-lab projects and Azure Cloud 
+               implementations, all documented on my GitHub. I am excited to continue to learn and grow in this field, undertake more 
+               projects, hack more boxes, and discover more of the many niches tech has to offer. While my focus is on offensive 
+               security, I am also entirely open to the possibility that a different sector will catch my eye.
+            </p>
          </div> <!-- end .main-col -->
       </div>
    </section> <!-- About Section End-->
@@ -200,14 +200,40 @@
             <div class="row item">
                <div class="twelve columns">
                   <h3>Home Lab</h3>
-                  <p class="info"><em class="date"><b>One of my favorite hobbies is working on different tech projects at home.</b></em></p>
+                  <p class="info"><em class="date"><b>A collection of projects I've undertaken in my free time</b></em></p>
                   <p>
-                  <li style="line-height: 1.5;">I run Debian 12 Stable with a tiling window manager (changes every couple months) as my desktop. I use <a href="https://nixos.org/" target="_blank">Nix Package manager</a> when I need newer packages, and build from source when I need the newest</li>
-                  <li style="line-height: 1.5;">I've set up this digital resume powered by Microsoft Azure utilizing Azure Storage, CosmosDB, and Azure Functions, as well as published a <a href="https://github.com/ClaytonReardon/azure-resume" target="_blank">writeup</a> for the process</li>
-                  <li style="line-height: 1.5;">When I was learning Azure Fundamentals I set up my own custom automatic, incremental cloud backup system using Microsoft Azure Virtual Machines and NFS file shares, and published the <a href="https://github.com/ClaytonReardon/Custom-Cloud-Backups-for-your-Home-System" target="_blank">writeup</a> to Github</li> 
-                  <li style="line-height: 1.5;">I run a BlueBubbles server that allows me to interact with iMessage from an Android phone</li>
-                  <li style="line-height: 1.5;">I've built all my own computers for the past 8 years</li>
+                     <li style="line-height: 1.5; color: #333333;">
+                        <b><a href="https://github.com/ClaytonReardon/ShipShape-Website" target="_blank">FileSharing and Database Website: </a></b> I set up a website hosted in Azure that utilizes Azure functions to upload files to blob storage and generate SAS URLs. Depending on the contents of the file, 
+                        a series of logic checks will be checked, and a virtual network containing various subnets and virtual machines will be automatically deployed using ARM templates. The website also utilizes another 
+                        Azure function to interact with an SQL database to place orders and update store inventory. A CI/CD pipeline is set up using a Github Workflow. 
+                        <p>The writeup can be found <a href="https://github.com/ClaytonReardon/ShipShape-Website" target="_blank">on my Github.</a></p>
+                     </li>
+                     <li style="line-height: 1.5; color: #333333;">
+                        <b><a href="https://github.com/ClaytonReardon/NetMaze" target="_blank">Networking Infrastructure: </a></b>I set up Azure networking infrastructure implementing dual virtual networks, integrating services such as VMs, load balancers, Azure Bastion, and Recovery Services 
+                        Vault, across multiple subnets. Utilized a Site-to-Site VPN and networking peering to allow access from my local network. Utilized Azure VMs for web hosting integrated with an SQL servier, and a 
+                        backend load balancer. Implemented Azure Bastion to allow secure access to the networks, and a Recovery Services Vault for data security.
+                        <p>The writeup can be found <a href="https://github.com/ClaytonReardon/NetMaze" target="_blank">on my Github.</a></p>
+                     </li>
+                     <li style="line-height: 1.5; color: #333333;">
+                        <b><a href="https://github.com/ClaytonReardon/IoTHub" target="_blank">IoT Device simulation and monitoring: </a></b>I set up an Azure IoT Hub and simulated multiple devices and telemetry. Routed data to Azure Stream and Log Analytics for data monitoring. I also sent 
+                        data to a Power BI workspace for powerful real-time data visualization. Implemented alerts and action groups to notify administrators when certain conditions are met. The writeup of this project 
+                        can be found <a href="https://github.com/ClaytonReardon/IoTHub" target="_blank">on my Github.</a>
+                     </li>
+                     <li style="line-height: 1.5; color: #333333;">
+                        <b><a href="https://github.com/ClaytonReardon/azure-resume" target="_blank">Azure Powered Resume: </a></b>I’ve set up this website hosted on Azure to showcase my resume. It uses a CosmosDB instance to monitor page views.
+                        <p>The writeup can be found <a href="https://github.com/ClaytonReardon/azure-resume" target="_blank">on my Github.</a></p>
+                     </li>
+                     <li style="line-height: 1.5; color: #333333;">
+                        <b>HackTheBox: </b>I am very active on the offensive security playground, <a href="https://www.hackthebox.com" target="_blank">HackTheBox.</a> This has given me the opportunity to learn about secure coding as well 
+                        as complex security vulnerabilities and exploits.  It's a ton of fun and a great resource. I am competent with Medium difficulty boxes. I am also active on the forum and help out newer users as much as I can.
+                        <p>Writeups describing various techniques and methodologies can be found <a href="https://github.com/ClaytonReardon/CTF-Writeups" target="_blank">on my Github</a></p>
+                     </li>
+                     <li style="line-height: 1.5; color: #333333;">
+                        <b>Daily drive: </b>I run Debian 12 Stable as my desktop. I use <a href="https://nixos.org/" target="_blank">Nix Package manager</a> 
+                        when I need newer packages, and build from source when I need the newest
+                     </li>
                   </p>
+               </br>
                </div>
             </div> <!-- item end -->
             
@@ -215,14 +241,15 @@
             <div class="row item">
                <div class="twelve columns">
                   <h3>HackTheBox</h3>
-                  <p class="info"><em class="date"><b>A pentration testing learning environment that got me to dive deeper into tech</b></em></p>
+                  <p class="info"><em class="date"><b>An offensive security playground</b></em></p>
                   <p>
-                     <li style="line-height: 1.5;">A link to writeups I've created describing techniques, methodology and the process behind cracking various systems can be found <a href="https://github.com/ClaytonReardon/CTF-Writeups" target="_blank">here</a>.</li>
-                     <li style="line-height: 1.5;">Requires problem solving, out of the box thinking, persistence, and "jack of all trades" knowledge, you have to learn a little bit about many technologies</li>
-                     <li style="line-height: 1.5;">I've always had an interest in computers and technology, but HackTheBox is what got me to dive deeper into into the field</li>
-                     <li style="line-height: 1.5;">I am competent at cracking Medium level boxes. My profile can be found <a href="https://app.hackthebox.com/profile/1162226" target="_blank">here</a>.</li>
-                     <li style="line-height: 1.5;">The community of individuals looking to help and give back to the infosec community is invaluable, and I try to do my part to help newer users. My forum account can be found <a href="https://forum.hackthebox.com/u/plus1059/summary" target="_blank">here</a>.</li>
+                     <li style="line-height: 1.5; color: #333333;">A link to writeups I've created describing techniques, methodology and the process behind hacking various systems can be found <a href="https://github.com/ClaytonReardon/CTF-Writeups" target="_blank">here</a>.</li>
+                     <li style="line-height: 1.5; color: #333333;">Requires problem solving, out of the box thinking, persistence, and "jack of all trades" knowledge, you have to learn a little bit about many technologies</li>
+                     <li style="line-height: 1.5; color: #333333;">I've always had an interest in computers and technology, but HackTheBox is what got me to dive deeper into into the field</li>
+                     <li style="line-height: 1.5; color: #333333;">I am competent at cracking Medium level boxes. My profile can be found <a href="https://app.hackthebox.com/profile/1162226" target="_blank">here</a>.</li>
+                     <li style="line-height: 1.5; color: #333333;">The community of individuals looking to help and give back to the infosec community is invaluable, and I try to do my part to help newer users. My forum account can be found <a href="https://forum.hackthebox.com/u/plus1059/summary" target="_blank">here</a>.</li>
                   </p>
+               </br>
                </div>
             </div> <!-- item end -->
 
@@ -232,10 +259,11 @@
                   <h3>Starbucks</h3>
                   <p class="info">Barista <span>&bull;</span> <em class="date">January 2022 - January 2024</em></p>
                   <p>
-                  <li style="line-height: 1.5;">After deciding to transition away from the music industry, I got an in between job at Starbucks to decide what to pursue next</li>
-                  <li style="line-height: 1.5;">Efficient communcation and teamwork were essential for a productive and enjoyable work experience</li>
-                  <li style="line-height: 1.5;">Functioned in a fast-paced, quick turn around work environment</li>
+                  <li style="line-height: 1.5; color: #333333;">After deciding to transition away from the music industry, I got an in between job at Starbucks to decide what to pursue next</li>
+                  <li style="line-height: 1.5; color: #333333;">Efficient communication and teamwork were essential for a productive and enjoyable work experience</li>
+                  <li style="line-height: 1.5; color: #333333;">Functioned in a fast-paced, quick turn around work environment</li>
                   </p>
+               </br>
                </div>
             </div> <!-- item end -->
 
@@ -245,10 +273,11 @@
                   <h3>Spitfire Recording Studios</h3>
                   <p class="info">Audio Engineer/ Video Editor <span>&bull;</span> <em class="date">September 2020 - January 2022</em></p>
                   <p>
-                  <li style="line-height: 1.5;">I assisted the lead engineer in setting up a recording environment for bands and performers</li>
-                  <li style="line-height: 1.5;">I assisted the lead engineer in producing and mixing recorded music</li>
-                  <li style="line-height: 1.5;">I also edited videos for the studio's Youtube channel, <a href="https://www.youtube.com/@Producelikeapro" target="_blank">Produce Like a Pro</a>, as well as private courses</li>
+                  <li style="line-height: 1.5; color: #333333;">I assisted the lead engineer in setting up a recording environment for bands and performers</li>
+                  <li style="line-height: 1.5; color: #333333;">I assisted the lead engineer in producing and mixing recorded music</li>
+                  <li style="line-height: 1.5; color: #333333;">I also edited videos for the studio's Youtube channel, <a href="https://www.youtube.com/@Producelikeapro" target="_blank">Produce Like a Pro</a>, as well as private courses</li>
                   </p>
+               </br>
                </div>
             </div> <!-- item end -->
 
@@ -258,10 +287,10 @@
                   <h3>Harmony Event Productions</h3>
                   <p class="info">Audio Engineer/ Stagehand <span>&bull;</span> <em class="date">September 2019 - March 2020</em></p>
                   <p>
-                  <li style="line-height: 1.5;">I set up staging, lighting, and sound for live events such as concerts and conferences</li>
-                  <li style="line-height: 1.5;">I was responsible for live mix set up to ensure high quality sound for the performers and audience</li>
-                  <li style="line-height: 1.5;">Good communication, teamwork, and camaraderie were essential for a productive and enjoyable work experience</li>
-                  <li style="line-height: 1.5;">Long hours in a fast-paced, high-demand environment</li>
+                  <li style="line-height: 1.5; color: #333333;">I set up staging, lighting, and sound for live events such as concerts and conferences</li>
+                  <li style="line-height: 1.5; color: #333333;">I was responsible for live mix set up to ensure high quality sound for the performers and audience</li>
+                  <li style="line-height: 1.5; color: #333333;">Good communication, teamwork, and camaraderie were essential for a productive and enjoyable work experience</li>
+                  <li style="line-height: 1.5; color: #333333;">Long hours in a fast-paced, high-demand environment</li>
                   </p>
                </div>
             </div> <!-- item end -->
@@ -278,7 +307,7 @@
             
             <!-- item start -->
             <div class="row item">
-               <div class="twelve columns">
+               <div class="twelve columns" style="color: #333333;">
                   <h3>Sponsor</h3>
                   <p class="info">June 2017 - Present</p>
                   <p>Extensive experience providing one-on-one guidance and support within the framework of confidential recovery programs, 

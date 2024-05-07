@@ -1,12 +1,12 @@
 ﻿Clayton Reardon
-Redondo Beach, CA | (424)-444-9490 | ClaytonReardon@gmail.com | 
+Redondo Beach, CA | (424)-444-9490 | ClaytonReardon@gmail.com | Github
 
 
 INTRO
 ________________
 
 
-Hello my name is Clayton and I’m currently making the transition from the music industry into the Cybersecurity field. My focus is offensive security but I am open to learning about all the niches that infosec has to offer. Security has really captured my interest and I’m investing a lot of time and energy to learn and enhance my skill set. I am excited to join this industry and continue to learn.
+I began my career in cybersecurity through hands-on experience with the penetration testing playground, HackTheBox, initially as a hobby, subsequently as a passion. Holding CompTIA Security+, Microsoft Azure Fundamentals and Administration certifications, I've expanded my expertise through various home-lab projects and Azure Cloud implementations, all documented on my GitHub. I am excited to continue to learn and grow in this field, undertake more projects, hack more boxes, and discover more of the many niches tech has to offer. While my focus is on offensive security, I am also entirely open to the possibility that a different sector will catch my eye.[a]
 
 
 CERTIFICATIONS
@@ -32,8 +32,7 @@ CompTIA - Security+
 * Identity and Access Management: Ability to implement access control policies and identity management to protect data and manage user privileges and access
 * Risk Management: Understanding of various risk management frameworks and the ability to conduct security assessments to identify and mitigate risks
 * Compliance and Operational Security: Awareness of legal and regulatory compliance mandates related to IT security, along with best practices for organization security
-— Verify at: http://verify.CompTIA.org
-— Code: RZZK3GHSHJB41YGR
+— Verify at: http://verify.CompTIA.org | Code: RZZK3GHSHJB41YGR
 
 
 EXPERIENCE
@@ -42,20 +41,28 @@ ________________
 
 Home Lab
 One of my main hobbies is setting up different tech projects at home.
-* I run Debian 12 Stable with a tiling window manager as my desktop. I use Nix when I need newer packages, and build from source when I need the newest.
-* I’ve set up my own custom automatic, incremental cloud backup system using Microsoft Azure
-* I’ve set up a solution in Azure to monitor attack attempts and log the IP addresses as well as plot them on a map.
-* I run a Blue Bubbles server on a Macbook to allow me to interact with iMessage from my Android phone.
-* I have an old Macbook I’ve installed Ubuntu Server on that I use as a personal fileserver.
-* I am very active on HackTheBox. It’s a ton of fun and a great resource. I am competent with Medium difficulty boxes. I also try to be active on the forum and help out newer users as much as I can.
-* I’ve built all my own computers for the past 8 years.
+* FileSharing and Database Website: I set up a website hosted in Azure that utilizes Azure functions to upload files to blob storage and generate SAS URLs. Depending on the contents of the file, a series of logic checks will be checked, and a virtual network containing various subnets and virtual machines will be automatically deployed using ARM templates. The website also utilizes another Azure function to interact with an SQL database to place orders and update store inventory. A CI/CD pipeline is set up using a Github Workflow. The writeup can be found on my Github
+* Networking Infrastructure: I set up Azure networking infrastructure implementing dual virtual networks, integrating services such as VMs, load balancers, Azure Bastion, and Recovery Services Vault, across multiple subnets. Utilized a Site-to-Site VPN and networking peering to allow access from my local network. Utilized Azure VMs for web hosting integrated with an SQL servier, and a backend load balancer. Implemented Azure Bastion to allow secure access to the networks, and a Recovery Services Vault for data security. The writeup can be found on my Github.
+* IoT Device simulation and monitoring: I set up an Azure IoT Hub and simulated multiple devices and telemetry. Routed data to Azure Stream and Log Analytics for data monitoring. I also sent data to a Power BI workspace for powerful real-time data visualization. Implemented alerts and action groups to notify administrators when certain conditions are met. The writeup of this project can be found on my Github.[b]
+* Azure Powered Resume: I’ve set up a website hosted on Azure to showcase my resume. It  uses a CosmosDB instance to monitor page views. The writeup can be found on my Github.
+
+
+
+
+HackTheBox
+An offensive security playground. It’s a ton of fun and a great resource.
+* A link to writeups I've created describing techniques, methodology and the process behind cracking various systems can be found here.
+* Requires problem solving, out of the box thinking, persistence, and "jack of all trades" knowledge, you have to learn a little bit about many technologies
+* The community of individuals looking to help and give back to the infosec community is invaluable, and I try to do my part to help newer users. My forum account can be found here.
+
+
 
 
 Barista                 01/2022 - Present
 Company:        Starbucks
-* You know the job, I’m a barista at Starbucks while I work on this new career path
-
-
+* After deciding to transition away from the music industry, I got an in between job at Starbucks to decide what to pursue next
+* Efficient communication and teamwork were essential for a productive and enjoyable work experience
+* Functioned in a fast-paced, quick turn around work environment
 Audio Engineer/ Video Editor        09/2020 - 01/2022
 Company:        Spitfire Recording Studios
 * Assisted Lead Engineer in setting up studio for bands and performers
@@ -82,4 +89,9 @@ ________________
 
 
 Sponsor
-Extensive experience providing one-on-one guidance and support within the framework of confidential recovery programs, offering personalized assistance to individuals navigating the path of recovery and fostering a supportive and non-judgmental environment to promote personal growth and adherence to the principles of anonymity.
+Extensive experience providing one-on-one guidance and support within the framework of confidential recovery programs, offering personalized assistance to individuals navigating the path of recovery and fostering a supportive and non-judgmental environment to promote personal growth and adherence to the principles of anonymity.[c]
+
+
+[a]Is this too long?
+[b]Are these too long?
+[c]Should I include this or nix it?
